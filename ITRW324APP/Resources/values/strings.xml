@@ -3,4 +3,7 @@
     <string name="title_home">Home</string>
     <string name="title_statistics">Statistics</string>
     <string name="title_operations">Operations</string>
+  
+    <string name="sendData">Send JSON</string>  
+    <string name="readJson">Read JSON Remote</string>
 </resources>

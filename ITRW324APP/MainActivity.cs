@@ -10,6 +10,12 @@ using System.Collections.Generic;
 using Android.Content;
 using Android.Net;
 
+using System.Linq;
+using System.Net.Http;
+using System.Text;
+using System.Xml.Serialization;
+using Newtonsoft.Json;
+
 
 namespace ITRW324APP
 {
@@ -17,7 +23,7 @@ namespace ITRW324APP
     public class MainActivity : AppCompatActivity, BottomNavigationView.IOnNavigationItemSelectedListener
     {
         private TextView _textMessage;
-        
+        BottomNavigationView navigation;
 
         public bool OnNavigationItemSelected(IMenuItem item)
         {
@@ -53,12 +59,30 @@ namespace ITRW324APP
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
+
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.activity_main);
-
             _textMessage = FindViewById<TextView>(Resource.Id.messageMain);
-            BottomNavigationView navigation = FindViewById<BottomNavigationView>(Resource.Id.navigation);
+            navigation = FindViewById<BottomNavigationView>(Resource.Id.navigation);
             navigation.SetOnNavigationItemSelectedListener(this);
+            ///////////////////
+            ////////////////////
+            ///////////////////////
+           
+
+
+
+
+
+
+            /////////////////////
+            //////////////////
+            ////////////////////////
+
+
+
+
+
         }
     }
 }

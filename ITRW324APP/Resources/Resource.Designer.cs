@@ -2603,14 +2603,14 @@ namespace ITRW324APP
 			// aapt resource value: 0x7f080061
 			public const int list_item = 2131230817;
 			
-			// aapt resource value: 0x7f0800b3
-			public const int masked = 2131230899;
+			// aapt resource value: 0x7f0800b6
+			public const int masked = 2131230902;
 			
 			// aapt resource value: 0x7f0800a1
 			public const int media_actions = 2131230881;
 			
-			// aapt resource value: 0x7f0800b1
-			public const int message = 2131230897;
+			// aapt resource value: 0x7f0800b4
+			public const int message = 2131230900;
 			
 			// aapt resource value: 0x7f08008c
 			public const int messageMain = 2131230860;
@@ -2630,14 +2630,14 @@ namespace ITRW324APP
 			// aapt resource value: 0x7f080095
 			public const int navigation_header_container = 2131230869;
 			
-			// aapt resource value: 0x7f0800b4
-			public const int navigation_home = 2131230900;
+			// aapt resource value: 0x7f0800b7
+			public const int navigation_home = 2131230903;
 			
-			// aapt resource value: 0x7f0800b6
-			public const int navigation_operations = 2131230902;
+			// aapt resource value: 0x7f0800b9
+			public const int navigation_operations = 2131230905;
 			
-			// aapt resource value: 0x7f0800b5
-			public const int navigation_statistics = 2131230901;
+			// aapt resource value: 0x7f0800b8
+			public const int navigation_statistics = 2131230904;
 			
 			// aapt resource value: 0x7f08003b
 			public const int never = 2131230779;
@@ -2677,6 +2677,9 @@ namespace ITRW324APP
 			
 			// aapt resource value: 0x7f080075
 			public const int radio = 2131230837;
+			
+			// aapt resource value: 0x7f0800b2
+			public const int readJson = 2131230898;
 			
 			// aapt resource value: 0x7f08004a
 			public const int right = 2131230794;
@@ -2746,6 +2749,9 @@ namespace ITRW324APP
 			
 			// aapt resource value: 0x7f08008a
 			public const int select_dialog_listview = 2131230858;
+			
+			// aapt resource value: 0x7f0800b1
+			public const int sendData = 2131230897;
 			
 			// aapt resource value: 0x7f080074
 			public const int shortcut = 2131230836;
@@ -2820,7 +2826,10 @@ namespace ITRW324APP
 			public const int textViewOperations = 2131230895;
 			
 			// aapt resource value: 0x7f0800b0
-			public const int textViewStat = 2131230896;
+			public const int textViewOperations1 = 2131230896;
+			
+			// aapt resource value: 0x7f0800b3
+			public const int textViewStat = 2131230899;
 			
 			// aapt resource value: 0x7f08009a
 			public const int text_input_password_toggle = 2131230874;
@@ -2879,8 +2888,8 @@ namespace ITRW324APP
 			// aapt resource value: 0x7f080016
 			public const int view_offset_helper = 2131230742;
 			
-			// aapt resource value: 0x7f0800b2
-			public const int visible = 2131230898;
+			// aapt resource value: 0x7f0800b5
+			public const int visible = 2131230901;
 			
 			// aapt resource value: 0x7f08003c
 			public const int withText = 2131230780;
@@ -3298,8 +3307,14 @@ namespace ITRW324APP
 			// aapt resource value: 0x7f090025
 			public const int path_password_strike_through = 2131296293;
 			
+			// aapt resource value: 0x7f09002c
+			public const int readJson = 2131296300;
+			
 			// aapt resource value: 0x7f090011
 			public const int search_menu_title = 2131296273;
+			
+			// aapt resource value: 0x7f09002b
+			public const int sendData = 2131296299;
 			
 			// aapt resource value: 0x7f090026
 			public const int status_bar_notification_info_overflow = 2131296294;

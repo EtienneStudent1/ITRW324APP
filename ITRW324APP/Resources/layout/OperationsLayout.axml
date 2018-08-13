@@ -11,6 +11,24 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/textViewOperations" />
+    <TextView
+        android:text="My text"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewOperations1" />
+    <Button
+        android:text="@string/sendData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sendData"
+        android:layout_below="@id/messageMain" />
+    <Button
+        android:text="@string/readJson"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/readJson"
+        android:layout_below="@id/sendData" />
     <android.support.design.widget.BottomNavigationView
         android:id="@+id/navigation"
         android:layout_width="wrap_content"
